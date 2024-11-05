@@ -3,7 +3,6 @@
 import Image from "next/image";
 import bannerImage from "../../../public/images/contact-us-banner.png";
 import MapComponent from "../components/map";
-import { useState } from "react";
 import { useRef } from 'react';
 import Swal from 'sweetalert2';
 

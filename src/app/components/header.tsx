@@ -131,16 +131,15 @@ export default function Header() {
           <div
             className="h-[500px] w-[300px]  bg-primary  px-3 pt-4 pb-3 sm:px-3 "
             onClick={() => {
-              setIsClick;
+              setIsClick(!isClick);
             }}
           >
-            {navLinks.map((link) => {
+            {navLinks.map((link,index) => {
               const isActive = pathName.startsWith(link.href);
               return (
-                <div className="  block ">
+                <div className="  block " key={index}>
                   <Link
                     href={link.href}
-                    key={link.name}
                     className={
                       isActive
                         ? "text-navlink font-semibold "

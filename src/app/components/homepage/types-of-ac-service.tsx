@@ -3,7 +3,6 @@ import Image1 from "../../../../public/images/serviceType1.webp";
 import Image2 from "../../../../public/images/ac-installation.png";
 import Image3 from "../../../../public/images/adcard.png";
 
-import Link from "next/link";
 
 const serviceList = [
   {

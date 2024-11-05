@@ -10,7 +10,7 @@ const AcGasFillingService = () => {
         Washing Machine Repair Service
       </h2>
       <p className="p-4 md:px-14 text-justify text-gray-700">
-        Whether it's leaking, vibrating, or not spinning, our expert repair
+        Whether it&apos;s leaking, vibrating, or not spinning, our expert repair
         service is here to solve the issue quickly and efficiently. We repair
         all types and brands, ensuring your washing machine gets back to peak
         performance in no time!

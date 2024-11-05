@@ -6,7 +6,6 @@ import Image4 from "../../../../public/images/roInstallation.png"
 import Image5 from "../../../../public/images/referigeratorrepair.png"
 import Image6 from "../../../../public/images/washingmachinerepair.png"
 
-import Link from "next/link";
 
 const serviceList = [
   {

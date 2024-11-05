@@ -98,14 +98,13 @@ const Footer = () => {
         </div>
         <div className=" flex flex-col">
           <h5 className="text-navlink text-3xl mb-4">Service We Provide</h5>
-          {services.map((services) => (
-            <Link
+          {services.map((services,index) => (
+            <Link key={index}
               href={services.href}
               className="block px-4 py-2 text-gray-300 hover:text-gray-100"
             >
               {services.title}
             </Link>
-            // <p key={index} className="text-gray-300 mb-3">{item.title}</p>
           ))}
         </div>
         <div className=" flex flex-col">
