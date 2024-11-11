@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import InquiryModal from "./components/inquiryModal";
+import WhatsappIcon from "./components/whatsappIcon";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,6 +34,8 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <InquiryModal/>
+        <WhatsappIcon/>
         <Footer/>
       </body>
     </html>

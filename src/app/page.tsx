@@ -6,13 +6,13 @@ import Welcomesection from "./components/homepage/welcomeSection"
 
 const HomeComponent = ()=>{
     return(
-        <>
+        <div className=" overflow-hidden">
         <Carousal/>
         <Welcomesection/>
         <TypesofServicesSec/>
         <AllTypesofAppliancesServicesSec/>
         <Testimonials/>
-        </>
+        </div>
     )
 }
 

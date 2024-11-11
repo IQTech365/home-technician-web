@@ -25,7 +25,7 @@ export default function Carousal() {
           loop={true}
           // loopAdditionalSlides={6}
           onSwiper={(Swiper) => console.log(Swiper)}
-          className="w-[26rem]  md:h-[460px] md:w-full "
+          className="md:h-[460px] w-full "
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>
