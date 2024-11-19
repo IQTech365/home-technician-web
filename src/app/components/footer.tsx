@@ -24,7 +24,7 @@ const quickLinks = [
 
 const services = [
   {
-    title: "Ac Repair Services",
+    title: "AC Repair Service",
     href: "/ac-repair-service",
   },
   {
@@ -40,7 +40,7 @@ const services = [
     href: "/ac-servicing-service",
   },
   {
-    title: "Washing Machine Repair",
+    title: "Washing Machine Repair Service",
     href: "/washing-machine-service",
   },
   {

@@ -1,14 +1,19 @@
 import banner1 from "../../public/images/banner1.png";
 import banner2 from "../../public/images/banner2.png";
 import banner3 from "../../public/images/banner3.png";
+import banner4 from "../../public/images/banner-4.png"
 import testimonial1 from "../../public/images/t-1.png";
 import testimonial2 from "../../public/images/t-2.png";
 import testimonial3 from "../../public/images/t-3.png";
+import AnyTimeService from "../../public/images/anyTimeService.png"
+import Experts from "../../public/images/experts.png"
+import UpFrontPricing from "../../public/images/upFrontPricing.png"
 
 export const images = [
   { src: banner1, alt: "banner1" },
   { src: banner2, alt: "banner2" },
   { src: banner3, alt: "banner3" },
+  { src: banner4, alt: "banner4" },
 ];
 
 export const testimonialimages = [
@@ -43,3 +48,28 @@ export const testimonialimages = [
      I recommended to all."`,
   },
 ];
+
+export const whyChooseUsCardContent = [
+  {
+    src: UpFrontPricing,
+    alt: "image1",
+    title: "Upfront Pricing",
+    dicription: "Get Ac repair at very affordable cost at your home. you can compare the prices with other companies.",
+  },
+  {
+    src: AnyTimeService,
+    alt: "image1",
+    title: "Anytime Service",
+    dicription: "We work 9.am to 11.pm, Our experts will visit your home or site as soon as possible to fix your problem.",
+
+  },
+  {
+    src: Experts,
+    alt: "image1",
+    title: "Qualified Experts",
+    dicription: "Our technicians are certified and have upto 5 to 6 years experience in this field.",
+
+  },
+]
+
+
