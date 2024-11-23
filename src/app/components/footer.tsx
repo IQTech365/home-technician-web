@@ -118,7 +118,7 @@ const Footer = () => {
             <strong>Contact No.-</strong> <a href="tel:73033 87506">+91-73033 87506</a>
           </p>
           <p className="text-gray-300">
-            <strong>Mail id:-</strong> <a href="mailto:hometechnician@gmail.com">hometechnician@gmail.com</a>
+            <strong>Mail id:-</strong> <a href="mailto:hometechnician@gmail.com">info@hometechnician.in</a>
           </p>
           <p className="text-gray-300">
             <strong>Website:-</strong> hometechnician.in
