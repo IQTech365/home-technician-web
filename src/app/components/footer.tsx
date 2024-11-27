@@ -1,7 +1,12 @@
 "use client";
 
+import { Metadata } from "next";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
+export const metadata:Metadata={
+  title: "Footer",
+}
 
 const quickLinks = [
   {

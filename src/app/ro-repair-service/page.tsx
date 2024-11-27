@@ -2,6 +2,11 @@ import Image from "next/image";
 import BannerImage from "../../../public/images/ro-repair-service.png";
 import RoRepairImage from "../../../public/images/ro-service-image.png";
 
+import { Metadata } from "next";
+export const metadata:Metadata={
+  title: "Ro Repair Service",
+}
+
 const RoRepairService = () => {
   return (
     <>

@@ -2,6 +2,11 @@ import Image from "next/image";
 import BannerImage from "../../../public/images/ac-installation-service.png";
 import AcInstall from "../../../public/images/ac-install-image.png";
 
+import { Metadata } from "next";
+export const metadata:Metadata={
+  title: "Ac Installation Service",
+}
+
 const AcInstallationService = () => {
   return (
     <>

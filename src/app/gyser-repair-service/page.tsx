@@ -2,6 +2,11 @@ import Image from "next/image";
 import BannerImage from "../../../public/images/geyser-service.png";
 import GyserRepairImage from "../../../public/images/gyser-Installation-repair-image.png";
 
+import { Metadata } from "next";
+export const metadata:Metadata={
+  title: "Geyser Repair Service",
+}
+
 const GeyserRepairService = () => {
   return (
     <>

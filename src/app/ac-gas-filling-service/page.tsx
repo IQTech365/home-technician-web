@@ -2,6 +2,11 @@ import Image from "next/image";
 import BannerImage from "../../../public/images/ac-installation-service.png";
 import AcGasFillingImage from "../../../public/images/ac-gas-filling-image.png";
 
+import { Metadata } from "next";
+export const metadata:Metadata={
+  title: "Ac Gas Filling Service",
+}
+
 const AcGasFillingService = () => {
   return (
     <>

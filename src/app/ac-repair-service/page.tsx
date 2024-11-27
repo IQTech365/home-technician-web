@@ -2,6 +2,11 @@ import Image from "next/image";
 import BannerImage from "../../../public/images/air-conditioner-repair.png";
 import AcrepairImage from "../../../public/images/ac-repair-image.png";
 
+import { Metadata } from "next";
+export const metadata:Metadata={
+  title: "Ac Repair Service",
+}
+
 const AcRepairService = () => {
   return (
     <>

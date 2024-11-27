@@ -2,7 +2,12 @@ import Image from "next/image";
 import BannerImage from "../../../public/images/wshing-machine-service.png";
 import WashingMachineRepairImage from "../../../public/images/washing-machine-repair-image.png";
 
-const AcGasFillingService = () => {
+import { Metadata } from "next";
+export const metadata:Metadata={
+  title: "Washing Machine Repair Service",
+}
+
+const WashingMachineRepairService = () => {
   return (
     <>
       <Image src={BannerImage} alt="" className="w-full" />
@@ -62,4 +67,4 @@ const AcGasFillingService = () => {
     </>
   );
 };
-export default AcGasFillingService;
+export default WashingMachineRepairService;

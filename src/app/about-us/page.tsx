@@ -1,10 +1,14 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import WelcomeImg from "../../../public/images/air-conditioner-technician-repair-service-600nw-2304576719.webp";
 // import whyChooseUsCardContent from '../../lib/utils'
-
 import banner from "../../../public/images/about-us-banner.png";
 import { whyChooseUsCardContent } from "@/lib/utils";
 
+
+export const metadata:Metadata={
+  title: "About Us",
+}
 const AboutUs = () => {
   return (
     <div>
