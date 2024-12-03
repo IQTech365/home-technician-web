@@ -5,6 +5,8 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import InquiryModal from "./components/inquiryModal";
 import WhatsappIcon from "./components/whatsappIcon";
+import InstaIcon from "./components/instaIcon";
+import FacebookIcon from "./components/facebookIcon";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -63,7 +65,7 @@ installation, and maintenance services for your home's essential
  systems. With over 20 years of experience, we ensure comfort and 
  convenience for our customers through reliable and professional services.`,
     images: [{
-      url: "../../../public/opengraph-image.jpg",
+      url: "./opengraph-image.png",
       alt: "Home Technician Website OpenGraph Image",
     }],
     url:"https://hometechnician.in",
@@ -90,7 +92,9 @@ export default function RootLayout({
         <Header />
         {children}
         <InquiryModal />
+        <FacebookIcon />
         <WhatsappIcon />
+        <InstaIcon />
         <Footer />
       </body>
     </html>
