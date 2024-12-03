@@ -11,7 +11,7 @@ const navLinks = [
   { name: "Home", href: "/home" },
   { name: "Contact Us", href: "/contact-us" },
   { name: "About Us", href: "/about-us" },
-  // { name: "Blog", href: "/blog" },
+  { name: "Blog", href: "https://www.blog.hometechnician.in/" },
 ];
 const servicesDropdown = [
   { name: "AC Repair Service", href: "/ac-repair-service" },
